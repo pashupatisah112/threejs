@@ -60,6 +60,7 @@ export default {
         this.scene.add(plane)
         this.scene.add(sphere)
         this.scene.add(grid)
+
         //setting animation loop
         this.renderer.setAnimationLoop(this.animate)
     },

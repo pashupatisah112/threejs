@@ -26,7 +26,10 @@ export default {
                 {title:'Basic Details',link:'/basic-detail'},
                 {title:'Loading 3d Models',link:'/loading-3d-models'},
                 {title:'Object Control GUI',link:'/gui-control'},
-                {title:'Lighting',link:'/lighting'}
+                {title:'Lighting',link:'/lighting'},
+                {title:'Fog',link:'/fog'},
+                {title:'Background',link:'/background'},
+                {title:'Selecting Object',link:'/selecting-object'},
 
             ]
 
