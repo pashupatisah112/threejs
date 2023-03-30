@@ -1,6 +1,6 @@
 <template>
 <div>
-    <v-navigation-drawer v-model="drawer" min-width="200" app>
+    <v-navigation-drawer v-model="drawer" min-width="200" app permanent>
         <v-list dense>
             <v-list-item v-for="(item,i) in content" :key="i" :to="item.link">
 
@@ -30,6 +30,7 @@ export default {
                 {title:'Fog',link:'/fog'},
                 {title:'Background',link:'/background'},
                 {title:'Selecting Object',link:'/selecting-object'},
+                {title:'Responsive',link:'/Responsive'},
 
             ]
 

@@ -79,6 +79,31 @@ export default {
         console.error(error);
       }
     );
+    //fbx loader
+// const loader = require('three/examples/jsm/loaders/FBXLoader')
+
+        // const fbxLoader = new loader.FBXLoader()
+        // fbxLoader.load(
+        //         'models/mint.fbx',
+        //         (object) => {
+        //             // object.traverse(function (child) {
+        //             //     if ((child as THREE.Mesh).isMesh) {
+        //             //         // (child as THREE.Mesh).material = material
+        //             //         if ((child as THREE.Mesh).material) {
+        //             //             ((child as THREE.Mesh).material as THREE.MeshBasicMaterial).transparent = false
+        //             //         }
+        //             //     }
+        //             // })
+        //             // object.scale.set(.01, .01, .01)
+        //             this.scene.add(object)
+        //         },
+        //         (xhr) => {
+        //             console.log((xhr.loaded / xhr.total) * 100 + '% loaded')
+        //         },
+        //         (error) => {
+        //             console.log(error)
+        //         })
+    
     // adding object to scene
     // this.scene.add(this.box);
     this.scene.add(plane);
